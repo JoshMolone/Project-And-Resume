@@ -1,0 +1,24 @@
+PGP/GPG to sign commits: 
+    set up Developer Tools, 
+    set up Git to check all pull requests for signatures;
+
+  You can sign your commit with the following command:
+
+      git commit –S –m "Signed commit message."
+
+  Then use the following command to merge pull requests while verifying signatures first:
+
+      git merge –verify-signatures
+
+//Once the process is set up, it'll run smoothly and keep your repo safe.
+
+GitHub supported GPG key algorithms, :
+
+        RSA
+        ElGamal
+        DSA
+        ECDH
+        ECDSA
+        EdDSA
+
+See Generating a GPG key...

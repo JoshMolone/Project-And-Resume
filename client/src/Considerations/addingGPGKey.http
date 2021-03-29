@@ -1,0 +1,13 @@
+Addding a GPG key:
+
+    In the upper-right corner of any page, click your profile photo, then click Settings.
+
+    In the user settings sidebar, click SSH and GPG keys.
+
+    Click New GPG key.
+
+        In the "Key" field, paste the GPG key you copied when you generated your GPG key.
+
+        Click Add GPG key.
+
+        # To confirm the action, enter your GitHub password.

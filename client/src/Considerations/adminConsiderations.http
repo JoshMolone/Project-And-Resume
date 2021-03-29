@@ -1,0 +1,8 @@
+//Things to learn in git:
+
+    //Assign access rights to each repository and give access only to the developers who need it;
+    {
+      Use a secure key store like Vault to provide access to your repo when a system requires it outside of the control of the developers on the project;
+
+      Be sure to double-check your configurations on access permissions since they can often be tricky;
+    }

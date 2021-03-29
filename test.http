@@ -1,0 +1,31 @@
+GET http://localhost:8000/api/products HTTP/1.1
+###
+
+###
+POST http://localhost:8000/api/products HTTP/1.1
+content-type:application/json
+{
+  "name": "stuff from models"
+}
+###
+
+###
+GET http://localhost:8000/api/products/add-the-ID HTTP/1.1
+###
+
+###
+PUT http://localhost:8000/api/products/add-the-ID HTTP/1.1
+Content-Type:application/json
+{
+  "name"
+}
+###
+
+###
+DELETE http://localhost:8000/api/products/add-the-ID HTTP/1.1
+###
+
+###
+
+# Other HTTP methods
+# GET http://localhost:8000/api/widges/random HTTP/1.1
